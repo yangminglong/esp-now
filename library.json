@@ -1,0 +1,20 @@
+{
+  "name": "esp-now",
+  "version": "0.0.0+20230615154625",
+  "headers": [
+    "src/control/include/espnow_ctrl.h",
+    "src/debug/include/espnow_cmd.h", 
+    "src/debug/include/espnow_console.h", 
+    "src/debug/include/espnow_log.h", 
+    "src/debug/include/sdcard/sdcard.h",
+    "src/espnow/include/espnow.h",
+    "src/ota/include/espnow_ota.h",
+    "src/provisioning/include/espnow_prov.h",
+    "src/security/include/espnow_security.h",
+    "src/security/include/espnow_security_handshake.h",
+    "src/security/include/protocomm/security/protocomm_client_security1.h",
+    "src/utils/include/espnow_mem.h",
+    "src/utils/include/espnow_storage.h",
+    "src/utils/include/espnow_utils.h"
+  ]
+}
